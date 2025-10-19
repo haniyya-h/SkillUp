@@ -80,7 +80,8 @@ The SkillUp app allows users to choose career paths (such as digital marketing, 
 - Learning progress tracking
 - Enrolled programs overview
 - Settings and logout functionality
-  <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/eef4e99b-5490-4097-bbb5-7d81a2b7324b" />
+<img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/41039ed9-b25d-476c-8171-5d2634f0ae1f" />
+
 
 
 
