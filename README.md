@@ -49,50 +49,40 @@ The SkillUp app allows users to choose career paths (such as digital marketing, 
 ## 📱 App Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login_screen.png)
+
 - Clean, minimalist design with custom SkillUp logo
 - Email/password fields with validation
 - Professional branding and user-friendly interface
+  <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/4055dcb4-fa8c-46af-9f16-4db4e3767bc9" />
+
 
 ### Home Dashboard
-![Home Screen](screenshots/home_screen.png)
+
 - Welcome message with user personalization
 - Circular progress indicator (75% complete)
 - Enrolled program cards with progress bars
 - Quick access to browse all programs
+  <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/dd41f636-fb6b-4697-ad90-d1571710f26c" />
+
 
 ### Program Listing Screen
-![Programs Screen](screenshots/programs_screen.png)
+
 - Grid of available learning pathways
 - Search functionality to filter programs
 - Program cards with descriptions and duration
 - Progress indicators for each pathway
-
-### Program Details Screen
-![Program Details](screenshots/program_details_screen.png)
-- Comprehensive program overview
-- Course modules with completion status
-- Milestones and badges section
-- Start course functionality
+  <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/f795914d-6c7e-4abd-96db-0c1a7e172964" />
+  
 
 ### Profile Screen
-![Profile Screen](screenshots/profile_screen.png)
+
 - User profile with avatar and information
 - Learning progress tracking
 - Enrolled programs overview
 - Settings and logout functionality
+  <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/eef4e99b-5490-4097-bbb5-7d81a2b7324b" />
 
-## 📸 How to Add Screenshots
 
-1. **Take screenshots** of your app running on device/emulator
-2. **Save them** in the `screenshots/` folder with descriptive names:
-   - `login_screen.png`
-   - `home_screen.png`
-   - `programs_screen.png`
-   - `program_details_screen.png`
-   - `profile_screen.png`
-3. **Update the paths** in this README to match your screenshot filenames
-4. **Commit and push** to your GitHub repository
 
 ## 🏗️ Project Structure
 
