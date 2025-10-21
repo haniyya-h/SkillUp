@@ -1,0 +1,264 @@
+{
+  "programs": [
+    {
+      "id": "data_analytics",
+      "title": "Data Analytics Pathway",
+      "description": "Master data analysis skills with hands-on projects and real-world applications. Learn Excel, SQL, Python, and Power BI to become a proficient data analyst.",
+      "duration": "5 months",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Data Scientist",
+        "experience": "8 years in data analytics"
+      },
+      "modules": [
+        {
+          "id": "excel_fundamentals",
+          "title": "Excel Fundamentals",
+          "description": "Learn advanced Excel functions and data manipulation",
+          "duration": "2 weeks",
+          "completed": false,
+          "skills": ["Excel", "Data Manipulation", "Pivot Tables"]
+        },
+        {
+          "id": "sql_database",
+          "title": "SQL Database Management",
+          "description": "Master SQL queries and database design principles",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["SQL", "Database Design", "Query Optimization"]
+        },
+        {
+          "id": "python_analysis",
+          "title": "Python for Data Analysis",
+          "description": "Learn Python programming for data science",
+          "duration": "4 weeks",
+          "completed": false,
+          "skills": ["Python", "Pandas", "NumPy", "Data Visualization"]
+        }
+      ],
+      "milestones": [
+        "Complete Excel certification",
+        "Build a SQL database project",
+        "Create a Python data analysis project",
+        "Design a Power BI dashboard"
+      ],
+      "badges": [
+        "Excel Expert",
+        "SQL Master",
+        "Python Analyst",
+        "Data Visualization Pro"
+      ],
+      "color": "#9C27B0",
+      "difficulty": "Intermediate",
+      "prerequisites": ["Basic computer skills", "High school math"]
+    },
+    {
+      "id": "ux_design",
+      "title": "UX Design Pathway",
+      "description": "Learn user experience design principles, wireframing, prototyping, and user research to create intuitive digital experiences.",
+      "duration": "6 months",
+      "instructor": {
+        "name": "Alex Chen",
+        "title": "Lead UX Designer",
+        "experience": "10 years in UX/UI design"
+      },
+      "modules": [
+        {
+          "id": "design_thinking",
+          "title": "Design Thinking Fundamentals",
+          "description": "Learn the design thinking process and methodology",
+          "duration": "2 weeks",
+          "completed": false,
+          "skills": ["Design Thinking", "Problem Solving", "User Empathy"]
+        },
+        {
+          "id": "user_research",
+          "title": "User Research & Personas",
+          "description": "Master user research techniques and persona creation",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["User Research", "Personas", "User Interviews"]
+        },
+        {
+          "id": "wireframing",
+          "title": "Wireframing & Prototyping",
+          "description": "Create wireframes and interactive prototypes",
+          "duration": "4 weeks",
+          "completed": false,
+          "skills": ["Wireframing", "Prototyping", "Figma", "Sketch"]
+        }
+      ],
+      "milestones": [
+        "Complete user research project",
+        "Design a mobile app wireframe",
+        "Create interactive prototype",
+        "Conduct usability testing"
+      ],
+      "badges": [
+        "Design Thinker",
+        "User Researcher",
+        "Wireframe Expert",
+        "Prototype Master"
+      ],
+      "color": "#4CAF50",
+      "difficulty": "Beginner",
+      "prerequisites": ["Creative thinking", "Basic design sense"]
+    },
+    {
+      "id": "digital_marketing",
+      "title": "Digital Marketing Pathway",
+      "description": "Master digital marketing strategies, social media marketing, SEO, and analytics to drive business growth.",
+      "duration": "4 months",
+      "instructor": {
+        "name": "Maria Rodriguez",
+        "title": "Digital Marketing Director",
+        "experience": "12 years in digital marketing"
+      },
+      "modules": [
+        {
+          "id": "marketing_fundamentals",
+          "title": "Digital Marketing Fundamentals",
+          "description": "Learn core digital marketing concepts and strategies",
+          "duration": "2 weeks",
+          "completed": false,
+          "skills": ["Marketing Strategy", "Digital Channels", "Customer Journey"]
+        },
+        {
+          "id": "social_media",
+          "title": "Social Media Marketing",
+          "description": "Master social media platforms and content strategy",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Social Media", "Content Strategy", "Community Management"]
+        },
+        {
+          "id": "seo_analytics",
+          "title": "SEO & Analytics",
+          "description": "Learn search engine optimization and web analytics",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["SEO", "Google Analytics", "Keyword Research"]
+        }
+      ],
+      "milestones": [
+        "Create a social media campaign",
+        "Optimize website for SEO",
+        "Analyze marketing metrics",
+        "Launch a digital marketing campaign"
+      ],
+      "badges": [
+        "Digital Marketer",
+        "Social Media Expert",
+        "SEO Specialist",
+        "Analytics Pro"
+      ],
+      "color": "#2196F3",
+      "difficulty": "Beginner",
+      "prerequisites": ["Basic business knowledge", "Communication skills"]
+    },
+    {
+      "id": "project_management",
+      "title": "Project Management",
+      "description": "Develop project management skills and methodologies to lead successful projects and teams.",
+      "duration": "3 months",
+      "instructor": {
+        "name": "David Thompson",
+        "title": "Senior Project Manager",
+        "experience": "15 years in project management"
+      },
+      "modules": [
+        {
+          "id": "pm_fundamentals",
+          "title": "Project Management Fundamentals",
+          "description": "Learn core project management principles and methodologies",
+          "duration": "2 weeks",
+          "completed": false,
+          "skills": ["Project Planning", "Risk Management", "Stakeholder Management"]
+        },
+        {
+          "id": "agile_methodology",
+          "title": "Agile Methodology",
+          "description": "Master Agile frameworks and Scrum practices",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Agile", "Scrum", "Sprint Planning", "Retrospectives"]
+        },
+        {
+          "id": "team_leadership",
+          "title": "Team Leadership",
+          "description": "Develop leadership skills for managing project teams",
+          "duration": "2 weeks",
+          "completed": false,
+          "skills": ["Leadership", "Team Management", "Communication"]
+        }
+      ],
+      "milestones": [
+        "Create a project charter",
+        "Lead a sprint planning session",
+        "Manage a project budget",
+        "Deliver a successful project"
+      ],
+      "badges": [
+        "Project Leader",
+        "Agile Master",
+        "Team Builder",
+        "Delivery Expert"
+      ],
+      "color": "#FF9800",
+      "difficulty": "Intermediate",
+      "prerequisites": ["Basic business experience", "Leadership interest"]
+    },
+    {
+      "id": "data_science",
+      "title": "Data Science",
+      "description": "Advanced data science and machine learning techniques for building predictive models and extracting insights from data.",
+      "duration": "8 months",
+      "instructor": {
+        "name": "Dr. Michael Zhang",
+        "title": "Chief Data Scientist",
+        "experience": "12 years in data science and AI"
+      },
+      "modules": [
+        {
+          "id": "statistics",
+          "title": "Statistics & Probability",
+          "description": "Master statistical concepts and probability theory",
+          "duration": "4 weeks",
+          "completed": false,
+          "skills": ["Statistics", "Probability", "Hypothesis Testing"]
+        },
+        {
+          "id": "machine_learning",
+          "title": "Machine Learning",
+          "description": "Learn ML algorithms and model building",
+          "duration": "6 weeks",
+          "completed": false,
+          "skills": ["Machine Learning", "Scikit-learn", "Model Evaluation"]
+        },
+        {
+          "id": "deep_learning",
+          "title": "Deep Learning",
+          "description": "Advanced neural networks and deep learning frameworks",
+          "duration": "4 weeks",
+          "completed": false,
+          "skills": ["Deep Learning", "TensorFlow", "Neural Networks"]
+        }
+      ],
+      "milestones": [
+        "Build a predictive model",
+        "Implement a neural network",
+        "Deploy a ML model to production",
+        "Complete a capstone project"
+      ],
+      "badges": [
+        "Data Scientist",
+        "ML Engineer",
+        "AI Specialist",
+        "Model Builder"
+      ],
+      "color": "#F44336",
+      "difficulty": "Advanced",
+      "prerequisites": ["Strong math background", "Programming experience"]
+    }
+  ]
+}

@@ -257,6 +257,13 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       const Divider(height: 1),
                       ListTile(
+                        leading: const Icon(Icons.feedback, color: Color(0xFF2E7D32)),
+                        title: const Text('Provide Feedback'),
+                        trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+                        onTap: () => context.go('/feedback'),
+                      ),
+                      const Divider(height: 1),
+                      ListTile(
                         leading: const Icon(Icons.help, color: Color(0xFF2E7D32)),
                         title: const Text('Help & Support'),
                         trailing: const Icon(Icons.arrow_forward_ios, size: 16),

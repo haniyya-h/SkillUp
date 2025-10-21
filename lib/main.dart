@@ -6,6 +6,7 @@ import 'screens/home_screen.dart';
 import 'screens/program_listing_screen.dart';
 import 'screens/program_details_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/feedback_screen.dart';
 import 'models/user_model.dart';
 import 'services/auth_service.dart';
 
@@ -76,6 +77,10 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/profile',
       builder: (context, state) => const ProfileScreen(),
+    ),
+    GoRoute(
+      path: '/feedback',
+      builder: (context, state) => const FeedbackScreen(),
     ),
   ],
 );

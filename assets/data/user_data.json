@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "profile": {
+        "bio": "Aspiring data analyst with a passion for turning data into insights.",
+        "career_goals": ["Data Analyst", "Business Intelligence Specialist"],
+        "experience_level": "Beginner",
+        "preferred_learning_style": "Hands-on projects"
+      },
+      "enrolled_programs": [
+        {
+          "program_id": "data_analytics",
+          "enrollment_date": "2024-01-15",
+          "progress": 0.3,
+          "current_module": "excel_fundamentals",
+          "completed_modules": [],
+          "badges_earned": []
+        },
+        {
+          "program_id": "ux_design",
+          "enrollment_date": "2024-02-01",
+          "progress": 0.1,
+          "current_module": "design_thinking",
+          "completed_modules": [],
+          "badges_earned": []
+        }
+      ],
+      "overall_progress": 0.75,
+      "learning_streak": 5,
+      "total_hours_learned": 45,
+      "achievements": [
+        {
+          "id": "first_course",
+          "title": "First Course Started",
+          "description": "Started your first learning journey",
+          "earned_date": "2024-01-15"
+        },
+        {
+          "id": "week_streak",
+          "title": "Week Streak",
+          "description": "Learned for 5 consecutive days",
+          "earned_date": "2024-01-20"
+        }
+      ],
+      "preferences": {
+        "notifications": true,
+        "dark_mode": false,
+        "weekly_reminders": true,
+        "email_updates": true
+      }
+    }
+  ],
+  "feedback": [
+    {
+      "id": "feedback_001",
+      "user_id": "user_001",
+      "program_id": "data_analytics",
+      "rating": 5,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "comments": "Excellent course structure and practical examples!",
+      "submitted_date": "2024-01-20",
+      "helpful": true
+    }
+  ]
+}
