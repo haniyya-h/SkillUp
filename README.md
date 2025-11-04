@@ -8,22 +8,57 @@ The SkillUp app allows users to choose career paths (such as digital marketing, 
 
 ## ✨ Features
 
-### Core Functionality
 - **Career Pathway Selection**: Choose from various career paths like Data Analytics, UX Design, Digital Marketing, etc.
 - **Progress Tracking**: Visual progress indicators and completion rates
 - **Interactive Learning**: Course modules with hands-on projects
 - **Achievement System**: Badges and milestones for motivation
-- **User Registration**: Complete registration system with form validation
+- **User Registration**: Complete registration system with comprehensive form validation
 - **Real-time Search**: JSON-powered program data with search and filtering
+- **Bookmark Functionality**: Save programs for later viewing
 - **Error Handling**: Comprehensive error handling with retry mechanisms
 
-### App Screens
-1. **Login Screen**: Secure authentication with email/password
-2. **Registration Screen**: User registration with comprehensive validation
-3. **Home Dashboard**: Welcome screen with overall progress and enrolled programs
-4. **Program Listing**: Browse all available learning pathways with search and filters
-5. **Program Details**: Detailed view of courses, modules, and milestones
-6. **Profile Screen**: User profile with achievements and settings
+## 📱 App Screenshots
+
+### Login Screen
+![Login Screen](screenshots/Login%20Screen.jpg)
+- Clean, minimalist design with custom SkillUp logo
+- Email/password fields with validation
+- Link to registration screen
+
+### Registration Screen
+![Registration Screen](screenshots/Registration%20Screen.jpg)
+- Complete registration form with all fields
+- Real-time password requirements checklist
+- Password strength indicator
+- Form validation with error messages
+
+### Home Dashboard
+![Home Dashboard](screenshots/Home%20Dashboard.jpg)
+- Welcome message with user personalization
+- Overall progress indicator
+- Enrolled program cards with progress bars
+- Quick access to browse all programs
+
+### Program Listing Screen
+![Program Listing](screenshots/Program%20Listing.jpg)
+- Available learning pathways
+- Search functionality to filter programs
+- Difficulty filter dropdown
+- Loading states and error handling
+
+### Program Details Screen
+![Program Details](screenshots/Program%20Details.jpg)
+- Comprehensive program overview
+- Course modules with completion status
+- Skills, milestones, and badges sections
+- Bookmark functionality
+
+### Profile Screen
+![Profile Screen](screenshots/Profile%20Screen.jpg)
+- User profile with avatar and information
+- Learning progress tracking
+- Enrolled programs overview
+- Settings and logout functionality
 
 ## 🚀 Getting Started
 
@@ -57,63 +92,6 @@ The app uses local JSON files for data storage:
 - **`assets/data/programs.json`**: Contains all learning programs with modules, skills, and milestones
 - **`assets/data/users.json`**: Sample user data for testing
 - **`assets/data/milestones.json`**: Achievement and badge definitions
-
-### Program Data Structure
-```json
-{
-  "programs": [
-    {
-      "id": "data_analytics",
-      "title": "Data Analytics Pathway",
-      "description": "Master data analysis skills...",
-      "duration": "5 months",
-      "difficulty": "Intermediate",
-      "color": "#9C27B0",
-      "modules": [...],
-      "skills": [...],
-      "milestones": [...],
-      "badges": [...]
-    }
-  ]
-}
-```
-
-## 📱 App Screenshots
-
-### Login Screen
-![Login Screen](screenshots/login_screen.png)
-- Clean, minimalist design with custom SkillUp logo
-- Email/password fields with validation
-- Professional branding and user-friendly interface
-
-### Home Dashboard
-![Home Screen](screenshots/home_screen.png)
-- Welcome message with user personalization
-- Circular progress indicator (75% complete)
-- Enrolled program cards with progress bars
-- Quick access to browse all programs
-
-### Program Listing Screen
-![Programs Screen](screenshots/programs_screen.png)
-- Grid of available learning pathways
-- Search functionality to filter programs
-- Program cards with descriptions and duration
-- Progress indicators for each pathway
-
-### Program Details Screen
-![Program Details](screenshots/program_details_screen.png)
-- Comprehensive program overview
-- Course modules with completion status
-- Milestones and badges section
-- Start course functionality
-
-### Profile Screen
-![Profile Screen](screenshots/profile_screen.png)
-- User profile with avatar and information
-- Learning progress tracking
-- Enrolled programs overview
-- Settings and logout functionality
-
 
 ## 🏗️ Project Structure
 
@@ -171,198 +149,31 @@ Login Screen → Home Dashboard → Program Listing → Program Details
    Logout      Browse Programs   View Details   Start Course
 ```
 
-## 🚧 Future Enhancements
-
-- **AI Recommendation Engine**: Personalized skill suggestions
-- **Learning Platform Integration**: Excelerate, LinkedIn Learning, Udemy, Coursera
-- **Community Features**: Discussion boards and mentorship
-- **Offline Mode**: Continue learning without internet
-- **Adaptive Difficulty**: Dynamic content based on performance
-
 ## 📋 Changelog
+
+### [Week 4] - Final Version - 2024-10-23
+
+#### Final Polish & Documentation
+- **Finalized**: Complete app with all screens functional
+- **Enhanced**: Overflow fixes and UI improvements
+- **Documented**: Comprehensive README with screenshots
+- **Polished**: Professional GitHub repository
+- **Ready**: Portfolio-ready project for showcasing
 
 ### [Week 3] - 2024-10-23
 
-#### 🎉 Major Features Added
-- **JSON Data Integration**: All program data now loads from JSON files
-- **User Registration**: Complete registration form with comprehensive validation
-- **Search & Filtering**: Search programs by title/description and filter by difficulty
-- **Loading States**: Professional loading indicators and error handling
-- **Form Validation**: Real-time validation with password strength indicator
-- **Error Handling**: Comprehensive error handling with retry mechanisms
-- **Bookmark Functionality**: Users can bookmark/unbookmark programs for later
-- **Enhanced Password Validation**: Strict password requirements with real-time checklist
+#### JSON Integration & Forms
+- **Added**: JSON data integration for programs
+- **Added**: Registration form with comprehensive validation
+- **Added**: Search and filtering capabilities
+- **Added**: Bookmark functionality
+- **Added**: Loading states and error handling
+- **Added**: Enhanced password validation with requirements checklist
 
-#### 🔧 Technical Improvements
-- **Data Models**: Enhanced user and program models with JSON serialization
-- **State Management**: Improved Provider-based state management with loading states
-- **Service Layer**: JSON service for data loading and user management
-- **UI/UX**: Better loading states, error messages, and user feedback
-- **Password Security**: Comprehensive password validation (8+ chars, uppercase, lowercase, numbers, special characters)
-- **Form Validation**: Double-check validation system prevents weak passwords
-- **Button State Management**: Submit button disabled until all requirements met
-
-#### 📱 Screen Updates
-- **Program Listing**: Now loads from JSON with search and filter capabilities
-- **Program Details**: Dynamic content with modules, skills, and milestones
-  - Fixed overflow issue (35px) on info chips row
-  - Added bookmark functionality with visual feedback
-  - Enhanced enrollment with loading spinner
-- **Registration Screen**: Complete form with validation and password strength
-  - Real-time password requirements checklist
-  - Password strength indicator (Weak/Medium/Good/Strong)
-  - Submit button disabled until all password requirements met
-  - Comprehensive validation with specific error messages
-- **All Screens**: Enhanced with loading states and error handling
-
-#### 🐛 Bug Fixes
-- **Fixed**: Program Details screen overflow issue (35 pixels on right)
-- **Fixed**: Password validation now properly enforced with double-check system
-- **Fixed**: Submit button state management for better UX
-- **Fixed**: Info chips row now scrollable on smaller screens
-
-## ✅ Week 3 Deliverables Checklist
-
-### 1. API-Connected Functional App ✅
-
-#### ✅ Program Listing & Details with Real Data
-- **Status**: ✅ **COMPLETE**
-- **Implementation**: 
-  - Program Listing screen loads data from `assets/data/programs.json`
-  - Program Details screen displays dynamic content from JSON
-  - Both screens show real program data (title, description, modules, skills, milestones, badges)
-  - Data is loaded via `JsonService` with proper error handling
-- **Files**: 
-  - `lib/services/json_service.dart` - JSON data loading service
-  - `lib/models/program_provider.dart` - State management for programs
-  - `lib/screens/program_listing_screen.dart` - Connected to JSON data
-  - `lib/screens/program_details_screen.dart` - Connected to JSON data
-  - `assets/data/programs.json` - Complete program data structure
-
-#### ✅ Functional Form with Validation
-- **Status**: ✅ **COMPLETE**
-- **Implementation**: 
-  - **Registration Form** fully implemented and functional
-  - Form includes: Full Name, Email, Password, Confirm Password, Terms & Conditions
-  - **Comprehensive Validation**:
-    - Name: Required, min 3 characters, letters only
-    - Email: Required, valid email format
-    - Password: Required, min 8 characters, uppercase, lowercase, number, special character
-    - Confirm Password: Must match password
-    - Real-time validation with visual feedback
-  - **Password Requirements Checklist**: Shows which requirements are met in real-time
-  - **Password Strength Indicator**: Weak/Medium/Good/Strong with color coding
-  - **Submit Button**: Disabled until all requirements are met
-  - **Double-Check Validation**: Additional validation before registration
-- **Files**: 
-  - `lib/screens/registration_screen.dart` - Complete registration form
-  - `lib/services/registration_service.dart` - Registration logic with validation
-  - Form validation prevents submission of invalid data
-
-### 2. GitHub Repository Update ✅
-
-#### ✅ Code Pushed to GitHub
-- **Status**: ✅ **READY** (pending user's permission to push)
-- **Implementation**: 
-  - All Week 3 code is complete and ready to push
-  - Clean code structure with proper organization
-  - All files properly committed and staged
-
-#### ✅ Clear Commit Messages
-- **Status**: ✅ **PLANNED**
-- **Recommended Commit Messages**:
-  - `feat: Add JSON data integration for programs`
-  - `feat: Implement registration form with comprehensive validation`
-  - `feat: Add search and filtering for programs`
-  - `feat: Add bookmark functionality`
-  - `feat: Add loading states and error handling`
-  - `fix: Fix overflow issue on program details screen`
-  - `fix: Enhance password validation with requirements checklist`
-  - `docs: Update README with Week 3 changes`
-
-#### ✅ Updated README
-- **Status**: ✅ **COMPLETE**
-- **Implementation**: 
-  - README updated with Week 3 features
-  - Data structure documentation added
-  - Changelog section with all changes documented
-  - Project structure updated
-  - Installation instructions included
-
-### 3. Changelog / Documentation ✅
-
-#### ✅ Data Integration Documentation
-- **Status**: ✅ **COMPLETE**
-- **Screens Fetching from JSON**:
-  1. **Program Listing Screen** (`program_listing_screen.dart`)
-     - Fetches all programs from `assets/data/programs.json`
-     - Displays programs with search and filter capabilities
-     - Shows loading state while fetching
-     - Error handling with retry mechanism
-   
-  2. **Program Details Screen** (`program_details_screen.dart`)
-     - Fetches specific program data by ID
-     - Displays modules, skills, milestones, and badges
-     - Shows loading state while fetching
-     - Error handling with retry mechanism
-
-#### ✅ Form Functionality Documentation
-- **Status**: ✅ **COMPLETE**
-- **Registration Form** (`registration_screen.dart`):
-  - **How it works**:
-    1. User enters full name, email, password, and confirms password
-    2. Real-time validation checks each field as user types
-    3. Password requirements checklist shows which requirements are met
-    4. Password strength indicator shows Weak/Medium/Good/Strong
-    5. Submit button is disabled until all requirements are met
-    6. Form validates on submit with specific error messages
-    7. Additional validation check before registration
-    8. Registration service validates data and creates user
-    9. Success message shown and user navigated to home
-  
-  - **Validation Rules**:
-    - Name: Required, 3+ characters, letters only
-    - Email: Required, valid email format
-    - Password: 8+ chars, uppercase, lowercase, number, special character
-    - Confirm Password: Must match password
-    - Terms: Must be accepted
-
-#### ✅ Loading & Error Handling Documentation
-- **Status**: ✅ **COMPLETE**
-- **Loading Indicators**:
-  - Program Listing: Circular progress indicator while loading programs
-  - Program Details: Loading spinner while fetching program data
-  - Registration: Loading spinner in submit button during registration
-  - Enrollment: Loading spinner in enrollment dialog
-  
-- **Error Handling**:
-  - **Program Listing**: Error state with retry button if JSON fails to load
-  - **Program Details**: Error state with retry button if program not found
-  - **Registration**: Error messages for validation failures
-  - **JSON Service**: Try-catch blocks with custom error messages
-  - **All Screens**: Graceful error handling with user-friendly messages
-
-### 4. Optional Demo Video
-- **Status**: ⏸️ **OPTIONAL**
-- **Recommendation**: Record a 2-3 minute video showing:
-  - Program Listing loading from JSON
-  - Search and filtering functionality
-  - Registration form with validation
-  - Bookmark functionality
-  - Error handling and retry mechanisms
-
-## 📊 Week 3 Deliverables Summary
-
-| Deliverable | Status | Evidence |
-|------------|--------|----------|
-| **API-Connected App** | ✅ Complete | JSON data integration, Program screens show real data |
-| **Functional Forms** | ✅ Complete | Registration form with comprehensive validation |
-| **Form Validation** | ✅ Complete | Real-time validation, password requirements, error messages |
-| **Loading States** | ✅ Complete | Loading indicators on all async operations |
-| **Error Handling** | ✅ Complete | Error states with retry mechanisms |
-| **GitHub Update** | ✅ Ready | Code ready, commit messages planned |
-| **README Update** | ✅ Complete | All Week 3 changes documented |
-| **Changelog** | ✅ Complete | Comprehensive changelog with all features |
+#### Bug Fixes
+- **Fixed**: Program Details screen overflow issues
+- **Fixed**: Password validation enforcement
+- **Fixed**: Submit button state management
 
 ### [Week 2] - 2024-10-16
 
@@ -373,7 +184,29 @@ Login Screen → Home Dashboard → Program Listing → Program Details
 - **Added**: Program listing and details
 - **Added**: Profile screen
 - **Added**: Basic UI/UX design
-- **Added**: GitHub repository setup
+
+## ✅ Week 4 Deliverables Status
+
+| Requirement | Status |
+|------------|--------|
+| All Key Screens (Login, Registration, Home, Program Listing, Program Details, Profile) | ✅ Complete |
+| Smooth Navigation | ✅ Complete |
+| Consistent Branding | ✅ Complete |
+| Working Data Integration | ✅ Complete |
+| Working Form Submissions | ✅ Complete |
+| Updated GitHub Repository | ✅ Complete |
+| Polished README | ✅ Complete |
+| Screenshots | ✅ Complete |
+| Clean Commit History | ✅ Complete |
+| Changelog | ✅ Complete |
+
+## 🚧 Future Enhancements
+
+- **AI Recommendation Engine**: Personalized skill suggestions
+- **Learning Platform Integration**: Excelerate, LinkedIn Learning, Udemy, Coursera
+- **Community Features**: Discussion boards and mentorship
+- **Offline Mode**: Continue learning without internet
+- **Adaptive Difficulty**: Dynamic content based on performance
 
 ## 👥 Team
 
