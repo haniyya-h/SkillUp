@@ -17,14 +17,6 @@ The SkillUp app allows users to choose career paths (such as digital marketing, 
 - **Real-time Search**: JSON-powered program data with search and filtering
 - **Error Handling**: Comprehensive error handling with retry mechanisms
 
-### App Screens
-1. **Login Screen**: Secure authentication with email/password
-2. **Registration Screen**: User registration with comprehensive validation
-3. **Home Dashboard**: Welcome screen with overall progress and enrolled programs
-4. **Program Listing**: Browse all available learning pathways with search and filters
-5. **Program Details**: Detailed view of courses, modules, and milestones
-6. **Profile Screen**: User profile with achievements and settings
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -79,40 +71,23 @@ The app uses local JSON files for data storage:
 ```
 
 ## 📱 App Screenshots
+1. **Login Screen**: Secure authentication with email/password
+   <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/aa3a0a8c-afc7-4e1c-a744-ea3c8b15cf9d" />
 
-### Login Screen
-![Login Screen](screenshots/login_screen.png)
-- Clean, minimalist design with custom SkillUp logo
-- Email/password fields with validation
-- Professional branding and user-friendly interface
+2. **Registration Screen**: User registration with comprehensive validation
+   <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/cec4168f-e200-4f31-bae8-4e70dd230340" />
 
-### Home Dashboard
-![Home Screen](screenshots/home_screen.png)
-- Welcome message with user personalization
-- Circular progress indicator (75% complete)
-- Enrolled program cards with progress bars
-- Quick access to browse all programs
+3. **Home Dashboard**: Welcome screen with overall progress and enrolled programs
+   <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/491d05ca-9ab4-4ce9-9b3d-cd94f97e5e8e" />
 
-### Program Listing Screen
-![Programs Screen](screenshots/programs_screen.png)
-- Grid of available learning pathways
-- Search functionality to filter programs
-- Program cards with descriptions and duration
-- Progress indicators for each pathway
+4. **Program Listing**: Browse all available learning pathways with search and filters
+   <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/050d4bed-1ffa-44d6-a11a-2346e5133470" />
 
-### Program Details Screen
-![Program Details](screenshots/program_details_screen.png)
-- Comprehensive program overview
-- Course modules with completion status
-- Milestones and badges section
-- Start course functionality
+5. **Program Details**: Detailed view of courses, modules, and milestones
+    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/f7681bfa-47fe-4948-9b46-94fdd4d46582" />
 
-### Profile Screen
-![Profile Screen](screenshots/profile_screen.png)
-- User profile with avatar and information
-- Learning progress tracking
-- Enrolled programs overview
-- Settings and logout functionality
+6. **Profile Screen**: User profile with achievements and settings
+   <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/d223800d-02d1-43e1-a719-661239890b9d" />
 
 
 ## 🏗️ Project Structure
