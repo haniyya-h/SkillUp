@@ -93,6 +93,26 @@ The app uses local JSON files for data storage:
 - **`assets/data/users.json`**: Sample user data for testing
 - **`assets/data/milestones.json`**: Achievement and badge definitions
 
+### Program Data Structure
+```json
+{
+  "programs": [
+    {
+      "id": "data_analytics",
+      "title": "Data Analytics Pathway",
+      "description": "Master data analysis skills...",
+      "duration": "5 months",
+      "difficulty": "Intermediate",
+      "color": "#9C27B0",
+      "modules": [...],
+      "skills": [...],
+      "milestones": [...],
+      "badges": [...]
+    }
+  ]
+}
+```
+
 ## 🏗️ Project Structure
 
 ```
