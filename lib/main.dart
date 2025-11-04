@@ -6,9 +6,11 @@ import 'screens/home_screen.dart';
 import 'screens/program_listing_screen.dart';
 import 'screens/program_details_screen.dart';
 import 'screens/profile_screen.dart';
-import 'screens/feedback_screen.dart';
 import 'models/user_model.dart';
+import 'models/program_provider.dart';
 import 'services/auth_service.dart';
+import 'services/registration_service.dart';
+import 'screens/registration_screen.dart';
 
 void main() {
   runApp(const SkillUpApp());
@@ -23,6 +25,8 @@ class SkillUpApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => AuthService()),
         ChangeNotifierProvider(create: (_) => UserModel()),
+        ChangeNotifierProvider(create: (_) => ProgramProvider()),
+        Provider(create: (_) => RegistrationService()),
       ],
       child: MaterialApp.router(
         title: 'SkillUp',
@@ -60,6 +64,10 @@ final GoRouter _router = GoRouter(
       builder: (context, state) => const LoginScreen(),
     ),
     GoRoute(
+      path: '/register',
+      builder: (context, state) => const RegistrationScreen(),
+    ),
+    GoRoute(
       path: '/home',
       builder: (context, state) => const HomeScreen(),
     ),
@@ -77,10 +85,6 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/profile',
       builder: (context, state) => const ProfileScreen(),
-    ),
-    GoRoute(
-      path: '/feedback',
-      builder: (context, state) => const FeedbackScreen(),
     ),
   ],
 );

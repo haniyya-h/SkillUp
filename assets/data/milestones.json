@@ -1,0 +1,86 @@
+{
+  "milestones": [
+    {
+      "id": "first_enrollment",
+      "title": "First Steps",
+      "description": "Enroll in your first learning pathway",
+      "icon": "🎯",
+      "points": 10,
+      "category": "Getting Started"
+    },
+    {
+      "id": "module_completion",
+      "title": "Module Master",
+      "description": "Complete your first module",
+      "icon": "📚",
+      "points": 25,
+      "category": "Learning"
+    },
+    {
+      "id": "program_completion",
+      "title": "Pathway Pioneer",
+      "description": "Complete an entire learning pathway",
+      "icon": "🏆",
+      "points": 100,
+      "category": "Achievement"
+    },
+    {
+      "id": "skill_master",
+      "title": "Skill Master",
+      "description": "Master 5 different skills",
+      "icon": "⭐",
+      "points": 50,
+      "category": "Skills"
+    },
+    {
+      "id": "consistent_learner",
+      "title": "Consistent Learner",
+      "description": "Study for 7 consecutive days",
+      "icon": "🔥",
+      "points": 30,
+      "category": "Habits"
+    },
+    {
+      "id": "knowledge_sharer",
+      "title": "Knowledge Sharer",
+      "description": "Share your first learning insight",
+      "icon": "💡",
+      "points": 15,
+      "category": "Community"
+    }
+  ],
+  "badges": [
+    {
+      "id": "excel_expert",
+      "name": "Excel Expert",
+      "description": "Mastered Excel fundamentals and advanced features",
+      "icon": "📊",
+      "color": "#4CAF50",
+      "requirements": ["Complete Excel module", "Pass Excel assessment"]
+    },
+    {
+      "id": "sql_master",
+      "name": "SQL Master",
+      "description": "Became proficient in SQL database management",
+      "icon": "🗄️",
+      "color": "#2196F3",
+      "requirements": ["Complete SQL module", "Build database project"]
+    },
+    {
+      "id": "python_analyst",
+      "name": "Python Analyst",
+      "description": "Learned Python for data analysis",
+      "icon": "🐍",
+      "color": "#FF9800",
+      "requirements": ["Complete Python module", "Create analysis project"]
+    },
+    {
+      "id": "design_thinker",
+      "name": "Design Thinker",
+      "description": "Mastered design thinking methodology",
+      "icon": "🎨",
+      "color": "#9C27B0",
+      "requirements": ["Complete Design Thinking module", "Apply to real project"]
+    }
+  ]
+}

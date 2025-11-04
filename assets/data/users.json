@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "registrationDate": "2024-01-15",
+      "overallProgress": 0.75,
+      "enrolledPrograms": [
+        {
+          "programId": "data_analytics",
+          "enrollmentDate": "2024-01-20",
+          "progress": 0.6,
+          "currentModule": "python_analysis",
+          "completedModules": ["excel_fundamentals", "sql_database"]
+        },
+        {
+          "programId": "ux_design",
+          "enrollmentDate": "2024-02-01",
+          "progress": 0.3,
+          "currentModule": "user_research",
+          "completedModules": ["design_thinking"]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "excel_expert",
+          "name": "Excel Expert",
+          "description": "Completed Excel Fundamentals module",
+          "earnedDate": "2024-02-15",
+          "badgeColor": "#4CAF50"
+        },
+        {
+          "id": "sql_master",
+          "name": "SQL Master",
+          "description": "Completed SQL Database Management module",
+          "earnedDate": "2024-03-01",
+          "badgeColor": "#2196F3"
+        }
+      ],
+      "preferences": {
+        "notifications": true,
+        "darkMode": false,
+        "emailUpdates": true
+      }
+    }
+  ]
+}

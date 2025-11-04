@@ -5,19 +5,18 @@
       "title": "Data Analytics Pathway",
       "description": "Master data analysis skills with hands-on projects and real-world applications. Learn Excel, SQL, Python, and Power BI to become a proficient data analyst.",
       "duration": "5 months",
-      "instructor": {
-        "name": "Dr. Sarah Johnson",
-        "title": "Senior Data Scientist",
-        "experience": "8 years in data analytics"
-      },
+      "difficulty": "Intermediate",
+      "color": "#9C27B0",
+      "progress": 0.0,
+      "enrolled": false,
       "modules": [
         {
           "id": "excel_fundamentals",
           "title": "Excel Fundamentals",
-          "description": "Learn advanced Excel functions and data manipulation",
+          "description": "Learn advanced Excel functions and data manipulation techniques",
           "duration": "2 weeks",
           "completed": false,
-          "skills": ["Excel", "Data Manipulation", "Pivot Tables"]
+          "skills": ["Excel", "Data Manipulation", "Pivot Tables", "Charts"]
         },
         {
           "id": "sql_database",
@@ -25,15 +24,23 @@
           "description": "Master SQL queries and database design principles",
           "duration": "3 weeks",
           "completed": false,
-          "skills": ["SQL", "Database Design", "Query Optimization"]
+          "skills": ["SQL", "Database Design", "Query Optimization", "Data Modeling"]
         },
         {
           "id": "python_analysis",
           "title": "Python for Data Analysis",
-          "description": "Learn Python programming for data science",
+          "description": "Learn Python programming for data science and analysis",
           "duration": "4 weeks",
           "completed": false,
           "skills": ["Python", "Pandas", "NumPy", "Data Visualization"]
+        },
+        {
+          "id": "power_bi",
+          "title": "Power BI Dashboard Design",
+          "description": "Create interactive dashboards and business intelligence reports",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Power BI", "Dashboard Design", "Business Intelligence", "Data Visualization"]
         }
       ],
       "milestones": [
@@ -48,20 +55,25 @@
         "Python Analyst",
         "Data Visualization Pro"
       ],
-      "color": "#9C27B0",
-      "difficulty": "Intermediate",
-      "prerequisites": ["Basic computer skills", "High school math"]
+      "skills": [
+        "Data Analysis",
+        "Excel",
+        "SQL",
+        "Python",
+        "Power BI",
+        "Statistics",
+        "Data Visualization"
+      ]
     },
     {
       "id": "ux_design",
       "title": "UX Design Pathway",
       "description": "Learn user experience design principles, wireframing, prototyping, and user research to create intuitive digital experiences.",
       "duration": "6 months",
-      "instructor": {
-        "name": "Alex Chen",
-        "title": "Lead UX Designer",
-        "experience": "10 years in UX/UI design"
-      },
+      "difficulty": "Beginner",
+      "color": "#4CAF50",
+      "progress": 0.0,
+      "enrolled": false,
       "modules": [
         {
           "id": "design_thinking",
@@ -69,7 +81,7 @@
           "description": "Learn the design thinking process and methodology",
           "duration": "2 weeks",
           "completed": false,
-          "skills": ["Design Thinking", "Problem Solving", "User Empathy"]
+          "skills": ["Design Thinking", "Problem Solving", "User Empathy", "Ideation"]
         },
         {
           "id": "user_research",
@@ -77,7 +89,7 @@
           "description": "Master user research techniques and persona creation",
           "duration": "3 weeks",
           "completed": false,
-          "skills": ["User Research", "Personas", "User Interviews"]
+          "skills": ["User Research", "Personas", "User Interviews", "Usability Testing"]
         },
         {
           "id": "wireframing",
@@ -85,7 +97,15 @@
           "description": "Create wireframes and interactive prototypes",
           "duration": "4 weeks",
           "completed": false,
-          "skills": ["Wireframing", "Prototyping", "Figma", "Sketch"]
+          "skills": ["Wireframing", "Prototyping", "Figma", "User Flow"]
+        },
+        {
+          "id": "visual_design",
+          "title": "Visual Design Principles",
+          "description": "Learn color theory, typography, and visual hierarchy",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Visual Design", "Color Theory", "Typography", "Layout Design"]
         }
       ],
       "milestones": [
@@ -100,20 +120,25 @@
         "Wireframe Expert",
         "Prototype Master"
       ],
-      "color": "#4CAF50",
-      "difficulty": "Beginner",
-      "prerequisites": ["Creative thinking", "Basic design sense"]
+      "skills": [
+        "UX Design",
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Figma",
+        "Design Thinking",
+        "Usability Testing"
+      ]
     },
     {
       "id": "digital_marketing",
       "title": "Digital Marketing Pathway",
       "description": "Master digital marketing strategies, social media marketing, SEO, and analytics to drive business growth.",
       "duration": "4 months",
-      "instructor": {
-        "name": "Maria Rodriguez",
-        "title": "Digital Marketing Director",
-        "experience": "12 years in digital marketing"
-      },
+      "difficulty": "Beginner",
+      "color": "#2196F3",
+      "progress": 0.0,
+      "enrolled": false,
       "modules": [
         {
           "id": "marketing_fundamentals",
@@ -121,7 +146,7 @@
           "description": "Learn core digital marketing concepts and strategies",
           "duration": "2 weeks",
           "completed": false,
-          "skills": ["Marketing Strategy", "Digital Channels", "Customer Journey"]
+          "skills": ["Digital Marketing", "Marketing Strategy", "Customer Journey", "Branding"]
         },
         {
           "id": "social_media",
@@ -129,7 +154,7 @@
           "description": "Master social media platforms and content strategy",
           "duration": "3 weeks",
           "completed": false,
-          "skills": ["Social Media", "Content Strategy", "Community Management"]
+          "skills": ["Social Media", "Content Strategy", "Community Management", "Influencer Marketing"]
         },
         {
           "id": "seo_analytics",
@@ -137,7 +162,15 @@
           "description": "Learn search engine optimization and web analytics",
           "duration": "3 weeks",
           "completed": false,
-          "skills": ["SEO", "Google Analytics", "Keyword Research"]
+          "skills": ["SEO", "Google Analytics", "Keyword Research", "Content Marketing"]
+        },
+        {
+          "id": "paid_advertising",
+          "title": "Paid Advertising & PPC",
+          "description": "Master Google Ads, Facebook Ads, and paid advertising strategies",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Google Ads", "Facebook Ads", "PPC", "Campaign Management"]
         }
       ],
       "milestones": [
@@ -152,20 +185,25 @@
         "SEO Specialist",
         "Analytics Pro"
       ],
-      "color": "#2196F3",
-      "difficulty": "Beginner",
-      "prerequisites": ["Basic business knowledge", "Communication skills"]
+      "skills": [
+        "Digital Marketing",
+        "Social Media",
+        "SEO",
+        "Google Analytics",
+        "Content Marketing",
+        "Paid Advertising",
+        "Marketing Strategy"
+      ]
     },
     {
       "id": "project_management",
       "title": "Project Management",
       "description": "Develop project management skills and methodologies to lead successful projects and teams.",
       "duration": "3 months",
-      "instructor": {
-        "name": "David Thompson",
-        "title": "Senior Project Manager",
-        "experience": "15 years in project management"
-      },
+      "difficulty": "Intermediate",
+      "color": "#FF9800",
+      "progress": 0.0,
+      "enrolled": false,
       "modules": [
         {
           "id": "pm_fundamentals",
@@ -173,92 +211,111 @@
           "description": "Learn core project management principles and methodologies",
           "duration": "2 weeks",
           "completed": false,
-          "skills": ["Project Planning", "Risk Management", "Stakeholder Management"]
-        },
-        {
-          "id": "agile_methodology",
-          "title": "Agile Methodology",
-          "description": "Master Agile frameworks and Scrum practices",
-          "duration": "3 weeks",
-          "completed": false,
-          "skills": ["Agile", "Scrum", "Sprint Planning", "Retrospectives"]
+          "skills": ["Project Management", "Agile", "Scrum", "Waterfall"]
         },
         {
           "id": "team_leadership",
-          "title": "Team Leadership",
-          "description": "Develop leadership skills for managing project teams",
+          "title": "Team Leadership & Communication",
+          "description": "Master team leadership and stakeholder communication",
+          "duration": "3 weeks",
+          "completed": false,
+          "skills": ["Leadership", "Communication", "Team Building", "Stakeholder Management"]
+        },
+        {
+          "id": "tools_software",
+          "title": "PM Tools & Software",
+          "description": "Learn project management tools like Jira, Trello, and Microsoft Project",
           "duration": "2 weeks",
           "completed": false,
-          "skills": ["Leadership", "Team Management", "Communication"]
+          "skills": ["Jira", "Trello", "Microsoft Project", "Asana"]
         }
       ],
       "milestones": [
         "Create a project charter",
-        "Lead a sprint planning session",
-        "Manage a project budget",
+        "Lead a team meeting",
+        "Manage a project timeline",
         "Deliver a successful project"
       ],
       "badges": [
-        "Project Leader",
-        "Agile Master",
-        "Team Builder",
-        "Delivery Expert"
+        "Project Manager",
+        "Team Leader",
+        "Agile Expert",
+        "Communication Pro"
       ],
-      "color": "#FF9800",
-      "difficulty": "Intermediate",
-      "prerequisites": ["Basic business experience", "Leadership interest"]
+      "skills": [
+        "Project Management",
+        "Agile",
+        "Scrum",
+        "Leadership",
+        "Communication",
+        "Team Management",
+        "Risk Management"
+      ]
     },
     {
       "id": "data_science",
       "title": "Data Science",
-      "description": "Advanced data science and machine learning techniques for building predictive models and extracting insights from data.",
+      "description": "Advanced data science and machine learning for predictive analytics and AI applications.",
       "duration": "8 months",
-      "instructor": {
-        "name": "Dr. Michael Zhang",
-        "title": "Chief Data Scientist",
-        "experience": "12 years in data science and AI"
-      },
+      "difficulty": "Advanced",
+      "color": "#F44336",
+      "progress": 0.0,
+      "enrolled": false,
       "modules": [
         {
-          "id": "statistics",
-          "title": "Statistics & Probability",
-          "description": "Master statistical concepts and probability theory",
+          "id": "statistics_math",
+          "title": "Statistics & Mathematics",
+          "description": "Master statistical concepts and mathematical foundations",
           "duration": "4 weeks",
           "completed": false,
-          "skills": ["Statistics", "Probability", "Hypothesis Testing"]
+          "skills": ["Statistics", "Probability", "Linear Algebra", "Calculus"]
         },
         {
           "id": "machine_learning",
           "title": "Machine Learning",
-          "description": "Learn ML algorithms and model building",
+          "description": "Learn machine learning algorithms and model building",
           "duration": "6 weeks",
           "completed": false,
-          "skills": ["Machine Learning", "Scikit-learn", "Model Evaluation"]
+          "skills": ["Machine Learning", "Python", "Scikit-learn", "TensorFlow"]
         },
         {
           "id": "deep_learning",
-          "title": "Deep Learning",
-          "description": "Advanced neural networks and deep learning frameworks",
+          "title": "Deep Learning & Neural Networks",
+          "description": "Master deep learning and neural network architectures",
+          "duration": "5 weeks",
+          "completed": false,
+          "skills": ["Deep Learning", "Neural Networks", "Keras", "PyTorch"]
+        },
+        {
+          "id": "big_data",
+          "title": "Big Data & Cloud Computing",
+          "description": "Learn big data processing and cloud platforms",
           "duration": "4 weeks",
           "completed": false,
-          "skills": ["Deep Learning", "TensorFlow", "Neural Networks"]
+          "skills": ["Big Data", "Hadoop", "Spark", "AWS", "Google Cloud"]
         }
       ],
       "milestones": [
-        "Build a predictive model",
-        "Implement a neural network",
-        "Deploy a ML model to production",
-        "Complete a capstone project"
+        "Build a machine learning model",
+        "Create a deep learning application",
+        "Process big data with Spark",
+        "Deploy a model to production"
       ],
       "badges": [
         "Data Scientist",
         "ML Engineer",
-        "AI Specialist",
-        "Model Builder"
+        "Deep Learning Expert",
+        "Big Data Specialist"
       ],
-      "color": "#F44336",
-      "difficulty": "Advanced",
-      "prerequisites": ["Strong math background", "Programming experience"]
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Statistics",
+        "Deep Learning",
+        "Big Data",
+        "Cloud Computing"
+      ]
     }
   ]
 }

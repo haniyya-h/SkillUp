@@ -121,7 +121,7 @@ class HomeScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          program['name'],
+                          'Program ID: ${program.programId}',
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w600,
@@ -130,7 +130,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          program['description'],
+                          'Enrolled: ${program.enrollmentDate}',
                           style: TextStyle(
                             fontSize: 14,
                             color: Colors.grey[600],
@@ -141,7 +141,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             Expanded(
                               child: LinearProgressIndicator(
-                                value: program['progress'],
+                                value: program.progress,
                                 backgroundColor: Colors.grey[300],
                                 valueColor: const AlwaysStoppedAnimation<Color>(
                                   Color(0xFF2E7D32),
@@ -150,7 +150,7 @@ class HomeScreen extends StatelessWidget {
                             ),
                             const SizedBox(width: 8),
                             Text(
-                              '${(program['progress'] * 100).toInt()}%',
+                              '${(program.progress * 100).toInt()}%',
                               style: const TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w500,

@@ -231,12 +231,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // For demo purposes, just show a snackbar
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Sign up functionality coming soon!'),
-                        ),
-                      );
+                      context.go('/register');
                     },
                     child: const Text(
                       'Sign up',

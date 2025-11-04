@@ -172,7 +172,7 @@ class ProfileScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          program['name'],
+                          'Program ID: ${program.programId}',
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w600,
@@ -181,7 +181,7 @@ class ProfileScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          program['description'],
+                          'Enrolled: ${program.enrollmentDate}',
                           style: TextStyle(
                             fontSize: 14,
                             color: Colors.grey[600],
@@ -192,7 +192,7 @@ class ProfileScreen extends StatelessWidget {
                           children: [
                             Expanded(
                               child: LinearProgressIndicator(
-                                value: program['progress'],
+                                value: program.progress,
                                 backgroundColor: Colors.grey[300],
                                 valueColor: const AlwaysStoppedAnimation<Color>(
                                   Color(0xFF2E7D32),
@@ -201,7 +201,7 @@ class ProfileScreen extends StatelessWidget {
                             ),
                             const SizedBox(width: 12),
                             Text(
-                              '${(program['progress'] * 100).toInt()}%',
+                              '${(program.progress * 100).toInt()}%',
                               style: const TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w500,
@@ -254,13 +254,6 @@ class ProfileScreen extends StatelessWidget {
                           onChanged: (value) {},
                           activeColor: const Color(0xFF2E7D32),
                         ),
-                      ),
-                      const Divider(height: 1),
-                      ListTile(
-                        leading: const Icon(Icons.feedback, color: Color(0xFF2E7D32)),
-                        title: const Text('Provide Feedback'),
-                        trailing: const Icon(Icons.arrow_forward_ios, size: 16),
-                        onTap: () => context.go('/feedback'),
                       ),
                       const Divider(height: 1),
                       ListTile(
