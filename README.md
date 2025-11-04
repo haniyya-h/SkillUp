@@ -75,19 +75,19 @@ The app uses local JSON files for data storage:
 1. **Login Screen**: Secure authentication with email/password
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/aa3a0a8c-afc7-4e1c-a744-ea3c8b15cf9d" />
 
-2. **Registration Screen**: User registration with comprehensive validation
+3. **Registration Screen**: User registration with comprehensive validation
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/cec4168f-e200-4f31-bae8-4e70dd230340" />
 
-3. **Home Dashboard**: Welcome screen with overall progress and enrolled programs
+4. **Home Dashboard**: Welcome screen with overall progress and enrolled programs
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/491d05ca-9ab4-4ce9-9b3d-cd94f97e5e8e" />
 
-4. **Program Listing**: Browse all available learning pathways with search and filters
+5. **Program Listing**: Browse all available learning pathways with search and filters
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/050d4bed-1ffa-44d6-a11a-2346e5133470" />
 
-5. **Program Details**: Detailed view of courses, modules, and milestones
+6. **Program Details**: Detailed view of courses, modules, and milestones
     <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/f7681bfa-47fe-4948-9b46-94fdd4d46582" />
 
-6. **Profile Screen**: User profile with achievements and settings
+7. **Profile Screen**: User profile with achievements and settings
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/d223800d-02d1-43e1-a719-661239890b9d" />
 
 
