@@ -71,6 +71,7 @@ The app uses local JSON files for data storage:
 ```
 
 ## 📱 App Screenshots
+
 1. **Login Screen**: Secure authentication with email/password
    <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/aa3a0a8c-afc7-4e1c-a744-ea3c8b15cf9d" />
 
